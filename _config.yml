@@ -5,7 +5,7 @@ description: "Web de los alumnos del DCAO"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: es
-url:
+url: https://alumnosdcao.github.io/
 feed:
   path: atom.xml
 
