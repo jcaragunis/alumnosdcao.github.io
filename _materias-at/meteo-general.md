@@ -3,14 +3,11 @@ layout: materia
 title: "Meteorología general"
 carrera: "at"
 tipo: Obligatoria
-correlativas: 
-  - materia: "Mate 1"
-    url: /ble
-    tipo: TP
+correlativas: CBC
 abre:
   - materia: "Probabilidad y estadística"
     tipo: F
-    url: /proba/
+    url: /materias-at/proba/
   - materia: "Meteorología Teórica"
     tipo: F
     url: /meteo-teorica/
