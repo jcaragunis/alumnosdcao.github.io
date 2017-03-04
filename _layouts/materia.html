@@ -3,3 +3,56 @@ layout: article
 ---
 
 
+<p align="left"><a href="{{ mapa-at }}" class="btn">
+	{% if page.carrera == "at" %}
+		Cs. de la Atmósfera
+	{% endif %}
+</a>  
+<a href="/obligatorias-at/" class="btn">
+	Materia {{ page.tipo }}
+</a></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><strong>Correlativas</strong></td>
+      <td>
+      {% if page.correlativas == "CBC" %}
+      	Materias del CBC
+      {% else %}
+      	{% for item in page.correlativas %}
+      		<a href="{{ site.url }}{{ item.url }}">{{ item.materia }}</a> ({{ item.tipo }})<br>
+      	{% endfor %}
+      {% endif %}
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><strong>Abre</strong></td>
+      <td>
+      {% for item in page.abre %}
+      	<a href="{{ site.url }}{{ item.url }}">{{ item.materia }}</a> ({{ item.tipo }})<br>
+      {% endfor %}
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><strong>Plan nuevo</strong></td>
+      <td>{{ page.nuevoplan }}</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><strong>Años anteriores</strong></td>
+      <td>
+	      {% for item in page.anteriores %}
+	      	{{ item }}<br>
+	      {% endfor %}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<p align="right"><a href="{{ page.programa }} target="_blank" class="btn">Programa</a>  <a href="{{ page.encuesta }}" target="_blank" class="btn">Encuestas</a></p>
+
+
+<h3>Tips</h3>
+ {{ page.content }}

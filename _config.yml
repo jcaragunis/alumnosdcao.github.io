@@ -84,3 +84,6 @@ collections:
   materias-at:
     output: true
     permalink: /:collection/:path/
+
+# links a los mapas:
+mapa-at: /mapa-at
