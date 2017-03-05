@@ -1,7 +1,7 @@
 ---
 title: "Mapa de Atmósfera"
 layout: article
-permalink: /mapa-at
+permalink: mapa-at
 ---
 
 <p align="left">
