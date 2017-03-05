@@ -4,7 +4,7 @@ title: "Matemática 4"
 carrera: "at"
 tipo: Obligatoria
 correlativas:
-- materia: "Matemática 3"
+  - materia: "Matemática 3"
     tipo: TP
     url: /materias-at/mate3
 abre:
