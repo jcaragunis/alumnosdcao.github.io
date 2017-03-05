@@ -43,6 +43,7 @@ owner:
 include:
   - .htaccess
   - _materias-at
+  - _pages
 exclude:
 
   - "*.less"
