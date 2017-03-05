@@ -14,8 +14,8 @@ correlativas:
 abre: nada
 nuevoplan: "No existe"
 anteriores:
-  - "2do cuatrimestre 2017: <a href="https://www.df.uba.ar/attachments/article/26/segundo.pdf">Horarios</a>"
-  - "1er cuatrimestre 2017: <a href="https://www.df.uba.ar/attachments/article/26/primero.pdf">Horarios</a>"
+  - "2do cuatrimestre 2017: <a href='https://www.df.uba.ar/attachments/article/26/segundo.pdf'>Horarios</a>"
+  - "1er cuatrimestre 2017: <a href='https://www.df.uba.ar/attachments/article/26/primero.pdf'>Horarios</a>"
 
 programa: http://materias.df.uba.ar/labo3aa2016c2/programa-2/
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15038.html

@@ -5,7 +5,7 @@ carrera: "at"
 tipo: Obligatoria
 correlativas: CBC
 abre:
-  - materia: "Probabilidad y estadística"
+  - materia: "Probabilidades y estadística"
     tipo: TP
     url: /materias-at/proba/
   - materia: "Matemática 3"
