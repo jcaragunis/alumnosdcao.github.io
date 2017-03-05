@@ -5,7 +5,7 @@ carrera: "at"
 tipo: Obligatoria
 correlativas: CBC
 abre:
-  - materia: "Probabilidad y estadística"
+  - materia: "Probabilidades y estadística"
     tipo: TP
     url: /materias-at/proba/
   - materia: "Matemática 3"
@@ -19,8 +19,8 @@ abre:
     url: /materias-at/labo2
 nuevoplan: "No cambia"
 anteriores:
-  - "2do cuatrimestre 2017: <a href="http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20172">Horarios</a>"
-  - "1er cuatrimestre 2017: <a href="http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20171">Horarios</a>"
+  - "2do cuatrimestre 2017: <a href='http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20172'>Horarios</a>"
+  - "1er cuatrimestre 2017: <a href='http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20171'>Horarios</a>"
 
 programa: http://cms.dm.uba.ar/academico/lic/programas/Analisis_I_M
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15043.html

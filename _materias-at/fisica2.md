@@ -19,8 +19,8 @@ abre:
     url: /materias-at/labo2
 nuevoplan: "Equivalencia a Física 3 (físicos)"
 anteriores:
-  - "2do cuatrimestre 2017: <a href="https://www.df.uba.ar/attachments/article/26/segundo.pdf">Horarios</a>"
-  - "1er cuatrimestre 2017: <a href="https://www.df.uba.ar/attachments/article/26/primero.pdf">Horarios</a>"
+  - "2do cuatrimestre 2017: <a href='https://www.df.uba.ar/attachments/article/26/segundo.pdf'>Horarios</a>"
+  - "1er cuatrimestre 2017: <a href='https://www.df.uba.ar/attachments/article/26/primero.pdf'>Horarios</a>"
 
 programa: http://materias.df.uba.ar/f3aa2016c2/programa/
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15246.html

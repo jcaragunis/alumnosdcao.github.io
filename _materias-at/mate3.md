@@ -16,8 +16,8 @@ abre:
     url: /materias-at/mate4
 nuevoplan: "No cambia"
 anteriores:
-  - "2do cuatrimestre 2017: <a href="http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20172">Horarios</a>"
-  - "1er cuatrimestre 2017: <a href="http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20171">Horarios</a>"
+  - "2do cuatrimestre 2017: <a href='http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20172'>Horarios</a>"
+  - "1er cuatrimestre 2017: <a href='http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20171'>Horarios</a>"
 
 programa: http://cms.dm.uba.ar/academico/programas/Analisis_II_Analisis_Matematico_II_Matematica_3
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15045.html

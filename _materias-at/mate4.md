@@ -19,8 +19,8 @@ abre:
     url: /materias-at/metodos-num
 nuevoplan: "Pasa a ser optativa"
 anteriores:
-  - "2do cuatrimestre 2017: <a href="http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20172">Horarios</a>"
-  - "1er cuatrimestre 2017: <a href="http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20171">Horarios</a>"
+  - "2do cuatrimestre 2017: <a href='http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20172'>Horarios</a>"
+  - "1er cuatrimestre 2017: <a href='http://cms.dm.uba.ar/horarios/horarios_html?cuatrim=20171'>Horarios</a>"
 
 programa: http://cms.dm.uba.ar/academico/programas/Matematica_4
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15046.html
