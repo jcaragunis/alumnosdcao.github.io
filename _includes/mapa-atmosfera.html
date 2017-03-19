@@ -1,78 +1,78 @@
 <!-- <p align="left">
 <div class="btn" onclick="clusterM('MEI')">Ocultar Materias MEI</div> <div class="btn" onclick="clusterM('MO')">Ocultar Materias MO</div>
 </p> -->
-<div id="mynetwork" style="height:700px"></div>
+<div id="mynetwork" style="height:auto"></div>
 
 <script type="text/javascript">
   // create an array with nodes
    var nodes = new vis.DataSet([
     // Iniciales
-    {id: 'mate1', label: 'Matemática 1', group: 'Inicial', level: 0},
-    {id: 'mate3', label: 'Matemática 3', group: 'Inicial', level: 1},
-    {id: 'fisica1', label: 'Física 1', group: 'Inicial', level: 0},
-    {id: 'quimica', label: 'Química General \ne Inorgánica para \nCiencias de la Atmósfera', group: 'Inicial', level: 0},
-    {id: 'fisica2', label: 'Física 2', group: 'Inicial', level: 1},
+    {id: 'mate1', label: 'Matemática 1', group: 'C', level: 0},
+    {id: 'mate3', label: 'Matemática 3', group: 'C', level: 1},
+    {id: 'fisica1', label: 'Física 1', group: 'C', level: 0},
+    {id: 'quimica', label: 'Química General \ne Inorgánica para \nCiencias de la Atmósfera', group: 'C', level: 0},
+    {id: 'fisica2', label: 'Física 2', group: 'C', level: 1},
     
     // Intermedia 
-    {id: 'meteo-general', label: 'Meteorología \nGeneral', group: 'Intermedia', level: 0},
-    {id: 'estadistica1', label: 'Estadística para \nel Sistema Climático 1', group: 'Intermedia', level: 1},
-    {id: 'termo', label: 'Procesos Termodinámicos \nen la Atmósfera', group: 'Intermedia', level: 1},
-    {id: 'intro-dinamica', label: 'Introducción a la \nDinámica de la Atmósfera', group: 'Intermedia', level: 2},
-    {id: 'radiacion', label: 'Radiación', group: 'Intermedia', level: 1},
-    {id: 'clima', label: 'Climatología', group: 'Intermedia', level: 3},
-    {id: 'pequena-escala', label: 'Procesos Atmosféricos \nen Pequeña Escala', group: 'Intermedia', level: 3},
-    {id: 'ondas1', label: 'Ondas en \nla Atmósfera 1', group: 'Intermedia', level: 4},
-    {id: 'labo-procesamiento', label: 'Laboratorio de Procesamiento \nde Información Meteorológica', group: 'Intermedia', level: 2},
-    {id: 'ondas2', label: 'Ondas en \nla Atmósfera 2', group: 'Intermedia', level: 4},
-    {id: 'sinoptica', label: 'Meteorología \nSinóptica', group: 'Intermedia', level: 5}
+    {id: 'meteo-general', label: 'Meteorología \nGeneral', group: 'C', level: 0},
+    {id: 'estadistica1', label: 'Estadística para \nel Sistema Climático 1', group: 'C', level: 1},
+    {id: 'termo', label: 'Procesos Termodinámicos \nen la Atmósfera', group: 'C', level: 1},
+    {id: 'intro-dinamica', label: 'Introducción a la \nDinámica de la Atmósfera', group: 'B', level: 2},
+    {id: 'radiacion', label: 'Radiación', group: 'B', level: 1},
+    {id: 'clima', label: 'Climatología', group: 'C', level: 3},
+    {id: 'pequena-escala', label: 'Procesos Atmosféricos \nen Pequeña Escala', group: 'B', level: 3},
+    {id: 'ondas1', label: 'Ondas en \nla Atmósfera 1', group: 'B', level: 4},
+    {id: 'labo-procesamiento', label: 'Laboratorio de Procesamiento \nde Información Meteorológica', group: 'C', level: 2},
+    {id: 'ondas2', label: 'Ondas en \nla Atmósfera 2', group: 'B', level: 4},
+    {id: 'sinoptica', label: 'Meteorología \nSinóptica', group: 'C', level: 5}
 ]);
 
   // create an array with edges
   var edges = new vis.DataSet([
-    {to: 'mate3', from: 'mate1', title: 'TP', color: 'blue'},
+    {to: 'mate3', from: 'mate1', title: 'TP', color: 'black'},
     
-    {to: 'fisica2', from: 'fisica1', title: 'TP', color: 'blue'},
+    {to: 'fisica2', from: 'fisica1', title: 'TP', color: 'black'},
     
-    {to: 'estadistica1', from: 'mate1', title: 'TP', color: 'blue'},
-    {to: 'estadistica1', from: 'meteo-general', title: 'TP', color: 'blue'},
+    {to: 'estadistica1', from: 'mate1', title: 'TP', color: 'black'},
+    {to: 'estadistica1', from: 'meteo-general', title: 'TP', color: 'black'},
 
-    {to: 'termo', from: 'meteo-general', title: 'Final', color: 'red'}, 
-    {to: 'termo', from: 'fisica1', title: 'TP', color: 'blue'}, 
-    {to: 'termo', from: 'quimica', title: 'TP', color: 'blue'}, 
+    {to: 'termo', from: 'meteo-general', title: 'Final', color: '#d50000'}, 
+    {to: 'termo', from: 'fisica1', title: 'TP', color: 'black'}, 
+    {to: 'termo', from: 'quimica', title: 'TP', color: 'black'}, 
 
-    {to: 'intro-dinamica', from: 'meteo-general', title: 'Final', color: 'red'}, 
-    {to: 'intro-dinamica', from: 'fisica1', title: 'TP', color: 'blue'}, 
-    {to: 'intro-dinamica', from: 'mate3', title: 'TP', color: 'blue'}, 
+    {to: 'intro-dinamica', from: 'meteo-general', title: 'Final', color: '#d50000'}, 
+    {to: 'intro-dinamica', from: 'fisica1', title: 'TP', color: 'black'}, 
+    {to: 'intro-dinamica', from: 'mate3', title: 'TP', color: 'black'}, 
 
-    {to: 'radiacion', from: 'meteo-general', title: 'Final', color: 'red'}, 
-    {to: 'radiacion', from: 'fisica1', title: 'TP', color: 'blue'}, 
+    {to: 'radiacion', from: 'meteo-general', title: 'Final', color: '#d50000'}, 
+    {to: 'radiacion', from: 'fisica1', title: 'TP', color: 'black'}, 
 
-    {to: 'clima', from: 'estadistica1', title: 'Final', color: 'red'}, 
-    {to: 'clima', from: 'intro-dinamica', title: 'TP', color: 'blue'}, 
-    {to: 'clima', from: 'termo', title: 'TP', color: 'blue'}, 
-    {to: 'clima', from: 'radiacion', title: 'TP', color: 'blue'},
+    {to: 'clima', from: 'estadistica1', title: 'Final', color: '#d50000'}, 
+    {to: 'clima', from: 'intro-dinamica', title: 'TP', color: 'black'}, 
+    {to: 'clima', from: 'termo', title: 'TP', color: 'black'}, 
+    {to: 'clima', from: 'radiacion', title: 'TP', color: 'black'},
 
-    {to: 'pequena-escala', from: 'fisica1', title: 'Final', color: 'red'},
-    {to: 'pequena-escala', from: 'intro-dinamica', title: 'TP', color: 'blue'},
-    {to: 'pequena-escala', from: 'termo', title: 'TP', color: 'blue'},
-    {to: 'pequena-escala', from: 'estadistica1', title: 'TP', color: 'blue'},
+    {to: 'pequena-escala', from: 'fisica1', title: 'Final', color: '#d50000'},
+    {to: 'pequena-escala', from: 'intro-dinamica', title: 'TP', color: 'black'},
+    {to: 'pequena-escala', from: 'termo', title: 'TP', color: 'black'},
+    {to: 'pequena-escala', from: 'estadistica1', title: 'TP', color: 'black'},
 
-    {to: 'ondas1', from: 'fisica2', title: 'TP', color: 'blue'},
-    {to: 'ondas1', from: 'pequena-escala', title: 'TP', color: 'blue'},
+    {to: 'ondas1', from: 'fisica2', title: 'TP', color: 'black'},
+    {to: 'ondas1', from: 'pequena-escala', title: 'TP', color: 'black'},
 
-    {to: 'labo-procesamiento', from: 'mate1', title: 'Final', color: 'red'},
-    {to: 'labo-procesamiento', from: 'meteo-general', title: 'Final', color: 'red'},
-    {to: 'labo-procesamiento', from: 'estadistica1', title: 'TP', color: 'blue'},
+    {to: 'labo-procesamiento', from: 'mate1', title: 'Final', color: '#d50000'},
+    {to: 'labo-procesamiento', from: 'meteo-general', title: 'Final', color: '#d50000'},
+    {to: 'labo-procesamiento', from: 'estadistica1', title: 'TP', color: 'black'},
 
-    {to: 'ondas2', from: 'mate3', title: 'Final', color: 'red'},
-    {to: 'ondas2', from: 'fisica2', title: 'TP', color: 'blue'},
-    {to: 'ondas2', from: 'pequena-escala', title: 'TP', color: 'blue'},
+    {to: 'ondas2', from: 'mate3', title: 'Final', color: '#d50000'},
+    {to: 'ondas2', from: 'fisica2', title: 'TP', color: 'black'},
+    {to: 'ondas2', from: 'pequena-escala', title: 'TP', color: 'black'},
 
-    {to: 'sinoptica', from: 'termo', title: 'Final', color: 'red'},
-    {to: 'sinoptica', from: 'intro-dinamica', title: 'Final', color: 'red'},
-    {to: 'sinoptica', from: 'clima', title: 'TP', color: 'blue'},
-    {to: 'sinoptica', from: 'ondas1', title: 'TP', color: 'blue'},
-    {to: 'sinoptica', from: 'labo-procesamiento', title: 'TP', color: 'blue'},
+    {to: 'sinoptica', from: 'termo', title: 'Final', color: '#d50000'},
+    {to: 'sinoptica', from: 'intro-dinamica', title: 'Final', color: '#d50000'},
+    {to: 'sinoptica', from: 'clima', title: 'TP', color: 'black'},
+    {to: 'sinoptica', from: 'ondas1', title: 'TP', color: 'black'},
+    {to: 'sinoptica', from: 'labo-procesamiento', title: 'TP', color: 'black'},
 
   ]);
 
@@ -86,21 +86,55 @@
 
   var options = 
   {
+    height: '600px',
   	edges: {
-      arrows: 'to',
+      arrows: {
+        to: {enabled: true, scaleFactor: 0.8}
+      },
   		color: 'black',
       smooth: {
         type: "vertical",
         roundness: 0.55,
       }
   	},
-    
+    groups: {
+              C: {
+                  color: {
+                    border: '#000000',
+                    background:'#000000',
+                    hover: {
+                      border: '#000000',
+                      background:'#000000', 
+                    },
+                    highlight: {
+                      border: '#000000',
+                      background:'#000000', 
+                    }
+                    },
+                  font: {color: '#FFFFFF'}
+              },
+              B: {
+                  color: {
+                    border: '#26394c',
+                    background:'#26394c',
+                    hover: {
+                      border: '#26394c',
+                      background:'#26394c', 
+                    },
+                    highlight: {
+                      border: '#26394c',
+                      background:'#26394c', 
+                    }
+                    },
+                  font: {color: '#FFFFFF'}
+              },
+          },
 	 layout: {
 	  hierarchical: {
       enabled: true,
       sortMethod: 'directed',
       direction: 'UD',
-      nodeSpacing: 200,
+      nodeSpacing: 120,
       levelSpacing: 200,
       blockShifting: true,
       edgeMinimization: true,
@@ -114,7 +148,7 @@
         centralGravity: 0.0,
         springLength: 350,
         springConstant: 0.001,
-        nodeDistance: 200,
+        nodeDistance: 190,
         damping: 0.09
       }
     },
@@ -127,7 +161,7 @@
       }
     },
     font: {
-      size: 16,
+      size: 20,
       face: 'Georgia'
     },
     interaction :{

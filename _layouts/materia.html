@@ -60,20 +60,18 @@ comments: true
   </tbody>
 </table>
 
-
-
-<p align="right"><a href="
+<p align="right">
 {% if page.programa %}
-  {{ page.programa }}
+  <a href="{{ page.programa }}" target="_blank" class="btn">Programa</a> 
 {% else %}
-  {{ site.url }}/programa404
-{% endif %}" target="_blank" class="btn-disabled">Programa</a>  <a href="
+  <span class="btn-disabled">Sin Programa</span>
+{% endif %} 
+
 {% if page.encuestas %}
-  {{ page.encuestas }}
+  <a href="{{ page.encuestas }}" target="_blank" class="btn">Encuestas</a>
 {% else %}
-  {{ site.url }}/encuestas404
-{% endif %}" target="_blank" class="btn">Encuestas</a></p>
+  <span class="btn-disabled">Sin Encuestas</span>
+{% endif %} 
+</p>
 
-
-<h3>Tips</h3>
- {{ page.content }}
+{{ page.content }}
