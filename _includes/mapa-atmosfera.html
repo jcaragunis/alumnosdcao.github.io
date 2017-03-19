@@ -129,17 +129,22 @@
     font: {
       size: 16,
       face: 'Georgia'
-    }
+    },
+    interaction :{
+      hoverConnectedEdges: true,
+      hover: true,
+    },
   	};
 
   var network = new vis.Network(container, data, options);
 
-network.on("selectNode", function (params) {
-        if (params.nodes.length === 1) {
+
+network.on("doubleClick", function (params) {
+         if (params.nodes.length === 1) {
             var node = nodes.get(params.nodes[0]);
             var sitio = '{{ sire.url }}';
             window.open(sitio.concat('/materias-at/', node.id), '_parent');
-        }
+         }
   });
 
   // function clusterM(g) {
