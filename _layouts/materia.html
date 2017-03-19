@@ -11,10 +11,20 @@ comments: true
 </a>  
 <a href="/obligatorias-at/" class="btn">
 	Materia {{ page.tipo }}
-</a></p>
+</a>
+<a href="/obligatorias-at/" class="btn">
+  Materia {{ page.caracter }}
+</a>
+</p>
 
 <table>
   <tbody>
+    <tr>
+      <td style="text-align: right"><strong>Carga Horaria</strong></td>
+      <td>Semanal: {{ page.carga_horaria.semanal }} <br>
+          Total: {{ page.carga_horaria.total }}
+      </td>
+    </tr>
     <tr>
       <td style="text-align: right"><strong>Correlativas</strong></td>
       <td>
@@ -36,8 +46,8 @@ comments: true
       </td>
     </tr>
     <tr>
-      <td style="text-align: right"><strong>Plan nuevo</strong></td>
-      <td>{{ page.nuevoplan }}</td>
+      <td style="text-align: right"><strong>Plan viejo</strong></td>
+      <td>{{ page.viejoplan }}</td>
     </tr>
     <tr>
       <td style="text-align: right"><strong>Años anteriores</strong></td>
@@ -52,7 +62,17 @@ comments: true
 
 
 
-<p align="right"><a href="{{ page.programa }}" target="_blank" class="btn">Programa</a>  <a href="{{ page.encuestas }}" target="_blank" class="btn">Encuestas</a></p>
+<p align="right"><a href="
+{% if page.programa %}
+  {{ page.programa }}
+{% else %}
+  {{ site.url }}/programa404
+{% endif %}" target="_blank" class="btn">Programa</a>  <a href="
+{% if page.encuestas %}
+  {{ page.encuestas }}
+{% else %}
+  {{ site.url }}/encuestas404
+{% endif %}" target="_blank" class="btn">Encuestas</a></p>
 
 
 <h3>Tips</h3>
