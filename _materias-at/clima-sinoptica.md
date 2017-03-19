@@ -17,9 +17,9 @@ correlativas:
   - materia: "Meteorología Sinóptica"
     tipo: F
     url: /materias-at/meteo-sinoptica
-abre: -
+abre: "-"
 viejoplan: "No existe"
-anteriores: -
+anteriores: "-"
 ---
 
 ### Contenidos mínimos

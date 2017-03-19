@@ -11,7 +11,7 @@ correlativas:
   - materia: "Climatología"
     tipo: TP
     url: /materias-at/clima
-abre: -
+abre: "-"
 viejoplan: "Te la dan aprobada si tenés Complementos de Climatología"
 anteriores: Sin datos
 

@@ -28,7 +28,7 @@ abre:
     tipo: TP
     url: /materias-at/prono-inmediato
 viejoplan: "Equivale a Convección y Microfísica de Nubes"
-anteriores: -
+anteriores: "-"
 programa: http://conveccion.at.fcen.uba.ar/Programa_2009.pdf
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15115.html
 ---

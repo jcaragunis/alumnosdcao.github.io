@@ -14,9 +14,9 @@ correlativas:
   - materia: "Climatología"
     tipo: F
     url: /materias-at/clima
-abre: -
+abre: "-"
 viejoplan: "No existe"
-anteriores: -
+anteriores: "-"
 ---
 
 ### Contenidos mínimos
