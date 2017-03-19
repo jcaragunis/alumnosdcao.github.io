@@ -1,123 +1,78 @@
-<p align="left">
+<!-- <p align="left">
 <div class="btn" onclick="clusterM('MEI')">Ocultar Materias MEI</div> <div class="btn" onclick="clusterM('MO')">Ocultar Materias MO</div>
-</p>
-<div id="mynetwork" style="height:900px"></div>
+</p> -->
+<div id="mynetwork" style="height:700px"></div>
 
 <script type="text/javascript">
   // create an array with nodes
    var nodes = new vis.DataSet([
-    // obligatorias
-    {id: 'meteo-general', label: 'Meteorología \nGeneral', group: 'Obligatoria', level: 0},
-    {id: 'mate1', label: 'Matemática 1', group: 'Obligatoria', level: 0},
-    {id: 'mate2', label: 'Matemática 2', group: 'Obligatoria', level: 0},
-    {id: 'mate3', label: 'Matemática 3', group: 'Obligatoria', level: 1},
-    {id: 'f1', label: 'Física 1', group: 'Obligatoria', level: 1},
-    {id: 'proba', label: 'Probabilidades \ny Estadística', group: 'Obligatoria', level: 2},
-    {id: 'fmezcla', label: 'Física 3', group: 'Obligatoria', level: 2},
-    {id: 'labo1', label: 'Laboratorio 1', group: 'Obligatoria', level: 2},
-    {id: 'mate4', label: 'Matemática 4', group: 'Obligatoria', level: 3},
-    {id: 'meteo-teorica', label: 'Meteorología \nTeórica', group: 'Obligatoria', level: 3},
-    {id: 'clima', label: 'Climatología', group: 'Obligatoria', level: 4},
-    {id: 'dinamica', label: 'Dinámica de la \nAtmósfera 1', group: 'Obligatoria', level: 4},
-    {id: 'sinoptica', label: 'Meteorología \nSinóptica', group: 'Obligatoria', level: 5},
-    {id: 'calculo', label: 'Cálculo Numérico', group: 'Obligatoria', level: 5},
-    {id: 'conveccion', label: 'Convección y \nMicrofísica de Nubes', group: 'Obligatoria', level: 6},
-    {id: 'f2', label: 'Física 2', group: 'Obligatoria', level: 6},
-    {id: 'labo2', label: 'Laboratorio 2', group: 'Obligatoria', level: 7},
-
-    // MEI
-    {id: 'observacion', label: 'Observación de \nla Atmósfera', group: 'MEI', level: 5},
-    {id: 'metodos-est', label: 'Métodos Estadísticos \nen Ciencias de \nla Atmósfera 1', group: 'MEI', level: 6},
-    {id: 'mecanica', label: 'Mecánica de \nlos Fluidos', group: 'MEI', level: 6},
-    {id: 'metodos-num', label: 'Métodos Numéricos en \nCiencias de la Atmósfera', group: 'MEI', level: 7},
-    {id: 'turbulencia', label: 'Turulencia y Capa \nLímite de la Atmósfera', group: 'MEI', level: 7},
-    {id: 'labo', label: 'Laboratorio de \nPrevisión del Tiempo', group: 'MEI', level: 7},
-    {id: 'circulacion', label: 'Circulación General \nde la Atmósfera', group: 'MEI', level: 7},
-    {id: 'prono', label: 'Pronóstico Numérico', group: 'MEI', level: 8},
-    {id: 'mecanica-clasica', label: 'Mecánica Clásica', group: 'MEI', level: 7},
-    {id: 'clima-dinamica', label: 'Climatología Dinámica', group: 'MEI', level: 6},
-    {id: 'quimica', label: 'Química General \ne Inorgánica 1', group: 'MEI', level: 0, x: 300},
-
-
-    // MO
-    {id: 'contaminacion', label: 'Contaminación \nAtmosférica', group: 'MO', level: 7},
-    {id: 'hidro', label: 'Hidrología', group: 'MO', level: 5},
-    {id: 'cambio-climatico', label: 'Cambio Climático', group: 'MO', level: 5},
-    {id: 'agricola', label: 'Meteorología Agrícola 1', group: 'MO', level: 6},
-    {id: 'meso', label: 'Mesometeorología', group: 'MO', level: 8},
-    {id: 'sensores-remotos', label: 'Principios y Aplicaciones \nde Sensores Remotos', group: 'MO', level: 7},
-    {id: 'dinamica-alta', label: 'Dinámica de la \nAlta Atmósfera', group: 'MO', level: 7}
-  ]);
+    // Iniciales
+    {id: 'mate1', label: 'Matemática 1', group: 'Inicial', level: 0},
+    {id: 'mate3', label: 'Matemática 3', group: 'Inicial', level: 1},
+    {id: 'fisica1', label: 'Física 1', group: 'Inicial', level: 0},
+    {id: 'quimica', label: 'Química General \ne Inorgánica para \nCiencias de la Atmósfera', group: 'Inicial', level: 0},
+    {id: 'fisica2', label: 'Física 2', group: 'Inicial', level: 1},
+    
+    // Intermedia 
+    {id: 'meteo-general', label: 'Meteorología \nGeneral', group: 'Intermedia', level: 0},
+    {id: 'estadistica1', label: 'Estadística para \nel Sistema Climático 1', group: 'Intermedia', level: 1},
+    {id: 'termo', label: 'Procesos Termodinámicos \nen la Atmósfera', group: 'Intermedia', level: 1},
+    {id: 'intro-dinamica', label: 'Introducción a la \nDinámica de la Atmósfera', group: 'Intermedia', level: 2},
+    {id: 'radiacion', label: 'Radiación', group: 'Intermedia', level: 1},
+    {id: 'clima', label: 'Climatología', group: 'Intermedia', level: 3},
+    {id: 'pequena-escala', label: 'Procesos Atmosféricos \nen Pequeña Escala', group: 'Intermedia', level: 3},
+    {id: 'ondas1', label: 'Ondas en \nla Atmósfera 1', group: 'Intermedia', level: 4},
+    {id: 'labo-procesamiento', label: 'Laboratorio de Procesamiento \nde Información Meteorológica', group: 'Intermedia', level: 2},
+    {id: 'ondas2', label: 'Ondas en \nla Atmósfera 2', group: 'Intermedia', level: 4},
+    {id: 'sinoptica', label: 'Meteorología \nSinóptica', group: 'Intermedia', level: 5}
+]);
 
   // create an array with edges
   var edges = new vis.DataSet([
-    {from: 'meteo-general', to: 'proba', title: 'Final', color: 'red', color: 'red'},
-    {from: 'meteo-general', to: 'meteo-teorica', title: 'TP'},
-
-    {from: 'mate1', to: 'proba', title: 'TP'},
-    {from: 'mate1', to: 'mate3', title: 'TP'},
-    {from: 'mate1', to: 'labo1', title: 'TP'},
-    {from: 'mate1', to: 'labo2', title: 'TP'},
-
-    {from: 'mate2', to: 'calculo', title: 'TP'},
-    {from: 'mate2', to: 'mecanica-clasica', title: 'Final', color: 'red'},
-
-    {from: 'mate3', to: 'mate4', title: 'TP'},
-    {from: 'mate3', to: 'fmezcla', title: 'TP'},
-    {from: 'mate3', to: 'mecanica-clasica', title: 'Final', color: 'red'},
-
-    {from: 'f1', to: 'mecanica-clasica', title: 'Final', color: 'red'},
-    {from: 'f1', to: 'fmezcla', title: 'TP'},
-    {from: 'f1', to: 'f2', title: 'TP'},
-    {from: 'f1', to: 'meteo-teorica', title: 'Final', color: 'red'},
-
-    {from: 'mate4', to: 'metodos-est', title: 'TP'},
-    {from: 'mate4', to: 'mecanica', title: 'TP'},
-    {from: 'mate4', to: 'metodos-num', title: 'TP'},
+    {to: 'mate3', from: 'mate1', title: 'TP', color: 'blue'},
     
-    {from: 'meteo-teorica', to: 'hidro', title: 'TP'},
-    {from: 'meteo-teorica', to: 'clima', title: 'TP'},
-    {from: 'meteo-teorica', to: 'mecanica', title: 'TP'},
-    {from: 'meteo-teorica', to: 'dinamica', title: 'TP'},
-    {from: 'meteo-teorica', to: 'observacion', title: 'TP'},
-    {from: 'meteo-teorica', to: 'sinoptica', title: 'Final', color: 'red'},
-
-    {from: 'clima', to: 'clima-dinamica', title: 'Final', color: 'red'},    
-    {from: 'clima', to: 'cambio-climatico', title: 'TP'},
-    {from: 'clima', to: 'agricola', title: 'TP'},
-    {from: 'clima', to: 'metodos-est', title: 'TP'},
-    {from: 'clima', to: 'sinoptica', title: 'TP'},   
-
-    {from: 'dinamica', to: 'sinoptica', title: 'TP'},    
-    {from: 'dinamica', to: 'metodos-num', title: 'TP'},
-    {from: 'dinamica', to: 'circulacion', title: 'Final', color: 'red'},
-    {from: 'dinamica', to: 'prono', title: 'Final', color: 'red'},
-
-    {from: 'sinoptica', to: 'clima-dinamica', title: 'TP'},
-    {from: 'sinoptica', to: 'conveccion', title: 'TP'},
-    {from: 'sinoptica', to: 'labo', title: 'TP'},
-    {from: 'sinoptica', to: 'circulacion', title: 'TP'},
-    {from: 'sinoptica', to: 'prono', title: 'TP'},
-
-    {from: 'metodos-num', to: 'prono', title: 'TP'},
-
-    {from: 'calculo', to: 'prono', title: 'TP'},
-
-    {from: 'f2', to: 'mecanica-clasica', title: 'TP'},
-    {from: 'f2', to: 'sensores-remotos', title: 'TP'},
-    {from: 'f2', to: 'dinamica-alta', title: 'TP'},
-    {from: 'f2', to: 'labo2', title: 'TP'},
-
-    {from: 'mecanica', to: 'contaminacion', title: 'TP'},
-    {from: 'mecanica', to: 'turbulencia', title: 'TP'},
-
+    {to: 'fisica2', from: 'fisica1', title: 'TP', color: 'blue'},
     
-    
+    {to: 'estadistica1', from: 'mate1', title: 'TP', color: 'blue'},
+    {to: 'estadistica1', from: 'meteo-general', title: 'TP', color: 'blue'},
 
-    
-    
-    {from: 'conveccion', to: 'meso', title: 'TP'},
-    
+    {to: 'termo', from: 'meteo-general', title: 'Final', color: 'red'}, 
+    {to: 'termo', from: 'fisica1', title: 'TP', color: 'blue'}, 
+    {to: 'termo', from: 'quimica', title: 'TP', color: 'blue'}, 
+
+    {to: 'intro-dinamica', from: 'meteo-general', title: 'Final', color: 'red'}, 
+    {to: 'intro-dinamica', from: 'fisica1', title: 'TP', color: 'blue'}, 
+    {to: 'intro-dinamica', from: 'mate3', title: 'TP', color: 'blue'}, 
+
+    {to: 'radiacion', from: 'meteo-general', title: 'Final', color: 'red'}, 
+    {to: 'radiacion', from: 'fisica1', title: 'TP', color: 'blue'}, 
+
+    {to: 'clima', from: 'estadistica1', title: 'Final', color: 'red'}, 
+    {to: 'clima', from: 'intro-dinamica', title: 'TP', color: 'blue'}, 
+    {to: 'clima', from: 'termo', title: 'TP', color: 'blue'}, 
+    {to: 'clima', from: 'radiacion', title: 'TP', color: 'blue'},
+
+    {to: 'pequena-escala', from: 'fisica1', title: 'Final', color: 'red'},
+    {to: 'pequena-escala', from: 'intro-dinamica', title: 'TP', color: 'blue'},
+    {to: 'pequena-escala', from: 'termo', title: 'TP', color: 'blue'},
+    {to: 'pequena-escala', from: 'estadistica1', title: 'TP', color: 'blue'},
+
+    {to: 'ondas1', from: 'fisica2', title: 'TP', color: 'blue'},
+    {to: 'ondas1', from: 'pequena-escala', title: 'TP', color: 'blue'},
+
+    {to: 'labo-procesamiento', from: 'mate1', title: 'Final', color: 'red'},
+    {to: 'labo-procesamiento', from: 'meteo-general', title: 'Final', color: 'red'},
+    {to: 'labo-procesamiento', from: 'estadistica1', title: 'TP', color: 'blue'},
+
+    {to: 'ondas2', from: 'mate3', title: 'Final', color: 'red'},
+    {to: 'ondas2', from: 'fisica2', title: 'TP', color: 'blue'},
+    {to: 'ondas2', from: 'pequena-escala', title: 'TP', color: 'blue'},
+
+    {to: 'sinoptica', from: 'termo', title: 'Final', color: 'red'},
+    {to: 'sinoptica', from: 'intro-dinamica', title: 'Final', color: 'red'},
+    {to: 'sinoptica', from: 'clima', title: 'TP', color: 'blue'},
+    {to: 'sinoptica', from: 'ondas1', title: 'TP', color: 'blue'},
+    {to: 'sinoptica', from: 'labo-procesamiento', title: 'TP', color: 'blue'},
 
   ]);
 
@@ -131,35 +86,38 @@
 
   var options = 
   {
-    physics: {
-      solver: 'hierarchicalRepulsion',
-      stabilization: true,
-      hierarchicalRepulsion: { 
-        springConstant: 0.0001
-                }
-    },
-
   	edges: {
+      arrows: 'to',
   		color: 'black',
       smooth: {
-        type: "horizontal",
+        type: "vertical",
         roundness: 0.55,
       }
   	},
     
 	 layout: {
 	  hierarchical: {
-	  	enabled: true,
-      treeSpacing: 10,
-	  	blockShifting: false,
-      edgeMinimization: true,
-      levelSeparation: 200,
+      enabled: true,
       sortMethod: 'directed',
-      parentCentralization: false,
-      nodeDistance: 300,
-      springLength: 300
-	  	}
+      direction: 'UD',
+      nodeSpacing: 200,
+      levelSpacing: 200,
+      blockShifting: true,
+      edgeMinimization: true,
+      parentCentralization: true,
+      }
 	  },
+
+    physics: {
+      enabled: true,
+      hierarchicalRepulsion: {
+        centralGravity: 0.0,
+        springLength: 350,
+        springConstant: 0.001,
+        nodeDistance: 200,
+        damping: 0.09
+      }
+    },
 
     nodes: {
       margin: 10,
@@ -175,29 +133,30 @@
   	};
 
   var network = new vis.Network(container, data, options);
-  network.on("selectNode", function(params) {
-      if (params.nodes.length == 1) {
-          if (network.isCluster(params.nodes[0]) == true) {
-              network.openCluster(params.nodes[0]);
-          }
-      }
+
+network.on("selectNode", function (params) {
+        if (params.nodes.length === 1) {
+            var node = nodes.get(params.nodes[0]);
+            var sitio = '{{ sire.url }}';
+            window.open(sitio.concat('/materias-at/', node.id), '_parent');
+        }
   });
 
-
-  function clusterM(g) {
-      network.setData(data);
-      var clusterOptionsByData = {
-          joinCondition:function(childOptions) {
-              return childOptions.group == g;
-          },
-          clusterNodeProperties: {
-            id:'cluster-MEI',
-            label: 'Materias \nMEI',
-            shape:'box',
-            group: g,
-            shapeProperties: { borderRadius: 30 }
-          }
-      };
-      network.cluster(clusterOptionsByData);
-  }
+  // function clusterM(g) {
+  //     network.setData(data);
+  //     var clusterOptionsByData = {
+  //         joinCondition:function(childOptions) {
+  //             return childOptions.group == g;
+  //         },
+  //         clusterNodeProperties: {
+  //           id:'cluster-MEI',
+  //           label: 'Materias \nMEI',
+  //           shape:'box',
+  //           group: g,
+  //           shapeProperties: { borderRadius: 30 }
+  //         }
+  //     };
+  //     network.cluster(clusterOptionsByData);
+  // }
 </script> 
+
