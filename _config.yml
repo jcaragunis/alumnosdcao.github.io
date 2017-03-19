@@ -76,7 +76,7 @@ defaults:
       path: ""
       type: materias-at
     values:
-      layout: materias
+      layout: materia
       author_profile: false
       share: true
       comments: true

@@ -2,28 +2,43 @@
 layout: materia
 title: "Física 2"
 carrera: "at"
-tipo: Obligatoria
-correlativas:
-  - materia: "Física 1"
-    tipo: TP
-    url: /materias-at/fisica1
+tipo: Inicial
+caracter: Cuatrimestral
+carga_horaria: 
+    semanal: 9
+    total: 144 
+correlativas: CBC
 abre:
-  - materia: "Dinámica de la Alta Atmósfera"
+  - materia: "Ondas en la Atmósfera 1"
     tipo: TP
-    url: /materias-at/dinamica-alta
-  - materia: "Principios y Aplicaciones de Sensores Remotos"
+    url: /materias-at/ondas1
+  - materia: "Ondas en la Atmósfera 2"
     tipo: TP
-    url: /materias-at/sensores-remotos
-  - materia: "Laboratorio 2"
+    url: /materias-at/ondas2
+  - materia: "Física 4"
     tipo: TP
-    url: /materias-at/labo2
-nuevoplan: "Equivalencia a Física 3 (físicos)"
+    url: /materias-at/fisica4
+  - materia: "Física de la Atmósfera Terrestre"
+    tipo: TP
+    url: /materias-at/fisica-atmosfera
+  - materia: "Meteorología Espacial"
+    tipo: TP
+    url: /materias-at/meteo-espacial
+  - materia: "Sensoramiento Remoto del Sistema Terrestre 2"
+    tipo: TP
+    url: /materias-at/sensores2
+viejoplan: "No existía"
 anteriores:
   - "2do cuatrimestre 2017: <a href='https://www.df.uba.ar/attachments/article/26/segundo.pdf'>Horarios</a>"
   - "1er cuatrimestre 2017: <a href='https://www.df.uba.ar/attachments/article/26/primero.pdf'>Horarios</a>"
 
-programa: http://materias.df.uba.ar/f3aa2016c2/programa/
-encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15246.html
+programa: http://materias.df.uba.ar/f2aa2017c1/programa/
+encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15030.html
 ---
 
-Esta física en realidad es Física 3 de la carrera de Física y nuestra Física 3 es una mezcla extraña hecha solo para nosotros, nada confuso. Así que si la haces, en el plan nuevo aparece como Física 3 y es optativa. ¿Te conviene hacerla? Ni, te permite hacer otras optativas pero no muchas.
+### Contenidos mínimos
+Ondas en medios elásticos y continuos. Acústica. Análisis y Síntesis de Fourier. Interferencia, batidos. Naturaleza ondulatoria de la luz. Fenómenos de interferencia. Interferómetros. Coherencia. Difracción de la luz, redes. Polarización. Birrefringencia. Óptica geométrica. Instrumentos ópticos. Fotometría.
+
+### Tips
+Ésta materia no existía en el viejo plan. En vez de esta hacíamos Física Mezcla, un híbrido entre Física 2 y Física 4 de los físicos, ahora es historia. Hay que hacerla si o si, porque no te reconocen f mezcla.
+
