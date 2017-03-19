@@ -29,7 +29,7 @@ abre:
     url: /materias-at/aplicaciones-clima
   - materia: "Cambio Climático"
     tipo: TP
-    url: /materias-at/cambio-climático
+    url: /materias-at/cambio-climatico
   - materia: "Clima Urbano"
     tipo: TP
     url: /materias-at/clima-urbano
