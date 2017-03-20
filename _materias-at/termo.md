@@ -16,7 +16,7 @@ correlativas:
     url: /materias-at/fisica1
   - materia: "Química General e Inorgánica para Ciencias de la Atmósfera"
     tipo: TP
-    url: /materias-at/ino1
+    url: /materias-at/quimica
 abre:
   - materia: "Climatología"
     tipo: TP

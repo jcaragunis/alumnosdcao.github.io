@@ -45,7 +45,7 @@ abre:
   - materia: "Observación y Diseño Experimental"
     tipo: F
     url: /materias-at/diseno-exp
-viejoplan: "Te la dan aprobada si tenés Dinámica de la Atmósfera 1"
+viejoplan: "Te la dan aprobada si tenés Dinámica de la Atmósfera 1 o Mecánica de los Fluidos"
 anteriores: Sin datos
 
 ---
@@ -54,4 +54,4 @@ anteriores: Sin datos
 Fluido real y propiedades. Leyes de conservación en fluidos reales. Aproximación de Boussinesq. Análisis dimensional y semejanza. Flujos laminares y turbulentos. Ecuaciones de conservación en flujos turbulentos. Capa límite. Transferencia de propiedades entre la atmósfera y la superficie.
 
 ### Tips
-En principio se parece al primer tercio de Dinámica, aunque si ahora es bimestral, seguramente se ve las cosas con mas tiempo. No mucho mas que decir hasta ver cuando se dicta.
+En principio se parece al primer tercio de Dinámica, aunque si ahora es bimestral, seguramente se ve las cosas con mas tiempo. Pero también equivale a Mecánica de los Fluidos... Sin comentarios. No mucho mas que decir hasta ver cuando se dicta.
