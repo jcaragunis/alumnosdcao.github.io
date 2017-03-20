@@ -12,6 +12,7 @@ El sitio es de código abierto por lo que si encontrás algún error u omisión 
   Cada materia tiene una página propia escrita en [Markdown](https://www.arturogoga.com/tutorial-markdown-manera-simple-de-crear-texto-con-formato-especiales/) con un preámbulo donde está el nombre de la materia, sus correlativas, etc... y luego el cuerpo donde están los contenidos mínimos y los consejos. 
   
   El mapa de correlativas usa [vis.js](http://visjs.org) y es relativamente simple de entender. 
+  
 3. Hacer un *commit* con las modificaciones.
 4. Hacer [un *pull request*](https://github.com/alumnosdcao/alumnosdcao.github.io/pulls) indicando las modificaciones.
 5. ??
