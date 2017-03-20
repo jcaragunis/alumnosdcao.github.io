@@ -1,6 +1,11 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: "Atmósfera"
+  url: /atmosfera/
+  excerpt: "Carrera de Ciencias de la Atmósfera"
+  image: 400x250.jpg
+
+- title: "Océano"
+  url: /oceano/
+  excerpt: "Carrera de Ciencias de los Océanos"
+  image: 400x250.jpg

@@ -26,7 +26,7 @@ abre:
     url: /materias-at/prono-climatico
   - materia: "Laboratorio de Monitoreo Climático"
     tipo: TP
-    utl: /materias-at/labo-climatico
+    url: /materias-at/labo-climatico
 viejoplan: "Equivalente a Circulación General"
 anteriores: 
   - "2do cuatrimestre 2016: LU, MA y JU de 8 a 13"

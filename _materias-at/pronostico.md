@@ -17,7 +17,7 @@ abre:
     url: /materias-at/labo-pronostico
   - materia: "Meteorología Aeronáutica"
     tipo: TP
-    utl: /materias-at/meteo-aeronautica
+    url: /materias-at/meteo-aeronautica
 viejoplan: "Es complicado. Mirá en Tips."
 anteriores: "-"
 ---

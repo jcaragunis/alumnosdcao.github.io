@@ -23,7 +23,7 @@ abre:
     url: /materias-at/conveccion1
   - materia: "Mesometeorología de Montaña"
     tipo: TP
-    utl: /materias-at/meso-montana
+    url: /materias-at/meso-montana
 viejoplan: "No existe"
 anteriores: "-"
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m19218.html

@@ -17,7 +17,7 @@ abre:
     url: /materias-at/conveccion1
   - materia: "Mesometeorología de Montaña"
     tipo: TP
-    utl: /materias-at/meso-montana
+    url: /materias-at/meso-montana
 viejoplan: "Es la mitad de Principios y Aplicaciones de Sensores Remotos Instalados en Distintos Satélites, pero no da equivalencia."
 anteriores: "-"
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m19218.html
