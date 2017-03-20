@@ -3,7 +3,18 @@
 </p> -->
 <div id="mynetwork" style="height:auto"></div>
 
+<script type='text/javascript' src='/js/tinycolor.js'></script>
+
 <script type="text/javascript">
+  var colorC = '#26394c'
+  var hcolorC = tinycolor(colorC).lighten(10).toString()
+  var colorB = tinycolor(colorC).spin(270).toString()
+  var hcolorB = tinycolor(colorB).lighten(10).toString()
+  var colorF = '#03818a'
+  var widthF = 2
+
+
+
   // create an array with nodes
    var nodes = new vis.DataSet([
     // Iniciales
@@ -36,23 +47,23 @@
     {to: 'estadistica1', from: 'mate1', title: 'TP', color: 'black'},
     {to: 'estadistica1', from: 'meteo-general', title: 'TP', color: 'black'},
 
-    {to: 'termo', from: 'meteo-general', title: 'Final', color: '#d50000'}, 
+    {to: 'termo', from: 'meteo-general', title: 'Final', color: colorF, width: widthF}, 
     {to: 'termo', from: 'fisica1', title: 'TP', color: 'black'}, 
     {to: 'termo', from: 'quimica', title: 'TP', color: 'black'}, 
 
-    {to: 'intro-dinamica', from: 'meteo-general', title: 'Final', color: '#d50000'}, 
+    {to: 'intro-dinamica', from: 'meteo-general', title: 'Final', color: colorF, width: widthF}, 
     {to: 'intro-dinamica', from: 'fisica1', title: 'TP', color: 'black'}, 
     {to: 'intro-dinamica', from: 'mate3', title: 'TP', color: 'black'}, 
 
-    {to: 'radiacion', from: 'meteo-general', title: 'Final', color: '#d50000'}, 
+    {to: 'radiacion', from: 'meteo-general', title: 'Final', color: colorF, width: widthF}, 
     {to: 'radiacion', from: 'fisica1', title: 'TP', color: 'black'}, 
 
-    {to: 'clima', from: 'estadistica1', title: 'Final', color: '#d50000'}, 
+    {to: 'clima', from: 'estadistica1', title: 'Final', color: colorF, width: widthF}, 
     {to: 'clima', from: 'intro-dinamica', title: 'TP', color: 'black'}, 
     {to: 'clima', from: 'termo', title: 'TP', color: 'black'}, 
     {to: 'clima', from: 'radiacion', title: 'TP', color: 'black'},
 
-    {to: 'pequena-escala', from: 'fisica1', title: 'Final', color: '#d50000'},
+    {to: 'pequena-escala', from: 'fisica1', title: 'Final', color: colorF, width: widthF},
     {to: 'pequena-escala', from: 'intro-dinamica', title: 'TP', color: 'black'},
     {to: 'pequena-escala', from: 'termo', title: 'TP', color: 'black'},
     {to: 'pequena-escala', from: 'estadistica1', title: 'TP', color: 'black'},
@@ -60,16 +71,16 @@
     {to: 'ondas1', from: 'fisica2', title: 'TP', color: 'black'},
     {to: 'ondas1', from: 'pequena-escala', title: 'TP', color: 'black'},
 
-    {to: 'labo-procesamiento', from: 'mate1', title: 'Final', color: '#d50000'},
-    {to: 'labo-procesamiento', from: 'meteo-general', title: 'Final', color: '#d50000'},
+    {to: 'labo-procesamiento', from: 'mate1', title: 'Final', color: colorF, width: widthF},
+    {to: 'labo-procesamiento', from: 'meteo-general', title: 'Final', color: colorF, width: widthF},
     {to: 'labo-procesamiento', from: 'estadistica1', title: 'TP', color: 'black'},
 
-    {to: 'ondas2', from: 'mate3', title: 'Final', color: '#d50000'},
+    {to: 'ondas2', from: 'mate3', title: 'Final', color: colorF, width: widthF},
     {to: 'ondas2', from: 'fisica2', title: 'TP', color: 'black'},
     {to: 'ondas2', from: 'pequena-escala', title: 'TP', color: 'black'},
 
-    {to: 'sinoptica', from: 'termo', title: 'Final', color: '#d50000'},
-    {to: 'sinoptica', from: 'intro-dinamica', title: 'Final', color: '#d50000'},
+    {to: 'sinoptica', from: 'termo', title: 'Final', color: colorF, width: widthF},
+    {to: 'sinoptica', from: 'intro-dinamica', title: 'Final', color: colorF, width: widthF},
     {to: 'sinoptica', from: 'clima', title: 'TP', color: 'black'},
     {to: 'sinoptica', from: 'ondas1', title: 'TP', color: 'black'},
     {to: 'sinoptica', from: 'labo-procesamiento', title: 'TP', color: 'black'},
@@ -98,32 +109,32 @@
       }
   	},
     groups: {
-              C: {
+              B: {
                   color: {
-                    border: '#000000',
-                    background:'#000000',
+                    border: colorB,
+                    background:colorB,
                     hover: {
-                      border: '#000000',
-                      background:'#000000', 
+                      border: hcolorB,
+                      background: hcolorB, 
                     },
                     highlight: {
-                      border: '#000000',
-                      background:'#000000', 
+                      border: hcolorB,
+                      background: hcolorB, 
                     }
                     },
                   font: {color: '#FFFFFF'}
               },
-              B: {
+              C: {
                   color: {
-                    border: '#26394c',
-                    background:'#26394c',
+                    border: colorC,
+                    background: colorC,
                     hover: {
-                      border: '#26394c',
-                      background:'#26394c', 
+                      border: hcolorC,
+                      background: hcolorC, 
                     },
                     highlight: {
-                      border: '#26394c',
-                      background:'#26394c', 
+                      border: hcolorC,
+                      background: hcolorC, 
                     }
                     },
                   font: {color: '#FFFFFF'}
@@ -149,7 +160,7 @@
         springLength: 350,
         springConstant: 0.001,
         nodeDistance: 190,
-        damping: 0.09
+        damping: 0.01
       }
     },
 
