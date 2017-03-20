@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /oceano
-title: "Cs. de los Océanos"
+title: "Oceanografía"
 ---
 
 Comming soon.
