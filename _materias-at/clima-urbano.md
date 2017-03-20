@@ -11,7 +11,7 @@ correlativas:
   - materia: "Climatología"
     tipo: TP
     url: /materias-at/clima
-abre: "-"
+
 viejoplan: "Es equivalente a Climatología Local"
 anteriores: "-"
 ---

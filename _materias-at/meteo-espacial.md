@@ -17,7 +17,7 @@ correlativas:
   - materia: "Matemática 1"
     tipo: F
     url: /materias-at/mate1
-abre: "-"
+
 viejoplan: "No Existe"
 anteriores: "-"
 

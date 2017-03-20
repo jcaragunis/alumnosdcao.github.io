@@ -11,7 +11,7 @@ correlativas:
   - materia: "Climatología"
     tipo: TP
     url: /materias-at/clima
-abre: "-"
+
 viejoplan: "Es equivalente a Hidrología."
 anteriores:
   - "2do cuatrimestre 2016: MI y VI de 8 a 13"

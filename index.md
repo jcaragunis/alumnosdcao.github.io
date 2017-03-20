@@ -4,7 +4,13 @@ permalink: /
 title: ""
 image:
   feature: ISS.jpg
+links:
+    - title: Página del DCAO
+      url: http://www.at.fcen.uba.ar/
+    - title: Página de la FCEN
+      url: http://exactas.uba.ar/
+    - title: Sistema de Inscripciones
+      url: http://inscripciones.exactas.uba.ar
+    - title: Campus Virtual
+      url: http://campus.exactas.uba.ar/
 ---
-
-
-En esta página podés encontrar información sobre los planes de estudio de las licenciaturas en Ciencias de la Atmósfera y en Ciencias de los Océanos. 

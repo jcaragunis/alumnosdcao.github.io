@@ -11,7 +11,7 @@ correlativas:
   - materia: "Procesos Dinámicos de Gran Escala en la Atmósfera"
     tipo: TP
     url: /materias-at/gran-escala
-abre: "-"
+
 viejoplan: "No existe"
 anteriores: "-"
 ---

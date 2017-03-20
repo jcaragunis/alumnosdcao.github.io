@@ -11,7 +11,7 @@ correlativas:
   - materia: "Convección y Fenómenos Severos 1"
     tipo: TP
     url: /materias-at/conveccion1
-abre: "-"
+
 viejoplan: "No existe"
 anteriores: "-"
 

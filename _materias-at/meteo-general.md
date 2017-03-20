@@ -36,5 +36,5 @@ encuestas: http://encuestas_finales.exactas.uba.ar/mat/m15124.html
 ### Contenidos mínimos
 Contenidos mínimos: Introducción histórica a las ciencias de la atmósfera. La Tierra dentro del Sistema Solar. Origen de  la atmósfera. Composición y propiedades físicas de la atmósfera. Conceptos básicos de la radiación solar y terrestre. Variables atmosféricas. Estación meteorológica. Instrumentos, mediciones y sus errores. Teoría de errores. Observación en altura.  Estructura media de la atmósfera. Escalas de movimiento en  la atmósfera. Circulación general de la atmósfera. Masas de aire y frentes. Aplicaciones de la meteorología y la climatología.
 
-#Tips
+### Tips
 Conviene hacerla en el primer cuatrimestre de la carrera. Sirve para tener un patallazo general de todos los temas, si no te gusta la materia, salí corriendo.

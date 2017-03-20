@@ -14,7 +14,7 @@ correlativas:
   - materia: "Pronóstico Inmediato"
     tipo: TP
     url: /materias-at/prono-inmediato
-abre: "-"
+
 viejoplan: "No cambia"
 anteriores: 
   - "1er cuatrimestre 2015: LU y JU de 16 a 20"

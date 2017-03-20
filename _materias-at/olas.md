@@ -11,7 +11,7 @@ correlativas:
   - materia: "Oceanografía General"
     tipo: TP
     url: /materias-at/oceanografía
-abre: "-"
+
 viejoplan: "Es 'Olas' en el plan viejo de Océano."
 anteriores:
   - "1er cuatrimestre 2017: LU de 8 a 18" 

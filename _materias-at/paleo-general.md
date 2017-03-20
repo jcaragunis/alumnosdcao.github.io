@@ -11,7 +11,7 @@ correlativas:
   - materia: "Introducción a la Geología"
     tipo: TP
     url: /materias-at/intro-geo
-abre: "-"
+
 viejoplan: "No es del DCAO"
 anteriores:
   - "1er cuatrimestre 2016"

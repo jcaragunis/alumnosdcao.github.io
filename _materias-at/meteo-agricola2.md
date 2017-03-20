@@ -11,7 +11,7 @@ correlativas:
   - materia: "Meteorología Agrícola 1"
     tipo: TP
     url: /materias-at/meteo-agricola1
-abre: "-"
+
 viejoplan: "No cambia"
 anteriores: 
   - "2do cuatrimestre 2015: MI y VI de 12 a 16"

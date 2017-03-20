@@ -14,7 +14,7 @@ correlativas:
   - materia: "Meteorología Sinóptica"
     tipo: TP
     url: /materias-at/meteo-sinoptica
-abre: "-"
+
 viejoplan: "Se agrega la opción de hacer una práctica profesional."
 anteriores: "-"
 ---

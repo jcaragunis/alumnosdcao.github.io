@@ -23,7 +23,7 @@ correlativas:
   - materia: "Procesos Atmosféricos en Pequeña Escala"
     tipo: F
     url: /materias-at/pequena-escala
-abre: "-"
+
 viejoplan: "No existe"
 anteriores: "-"
 ---

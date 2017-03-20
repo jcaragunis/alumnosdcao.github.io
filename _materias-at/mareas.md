@@ -14,7 +14,7 @@ correlativas:
   - materia: "Ondas en la Atmósfera 2"
     tipo: TP
     url: /materias-at/ondas2
-abre: "-"
+
 viejoplan: "No existe"
 anteriores:
   - "2do cuatrimestre 2016: LU y VI de 8 a 13"

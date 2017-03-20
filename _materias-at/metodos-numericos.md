@@ -20,7 +20,7 @@ correlativas:
   - materia: "Ondas en la Atmósfera 2"
     tipo: TP
     url: /materias-at/ondas2
-abre: "-"
+
 viejoplan: "Vale por Métodos Numéricos en Ciencias de la Atmósfera"
 anteriores:
   - "2do cuatrimestre 2015: LU y MI de 14 a 18"

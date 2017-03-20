@@ -20,7 +20,7 @@ correlativas:
   - materia: "Física 1"
     tipo: F
     url: /materias-at/fisica1
-abre: "-"
+
 viejoplan: "No cambia"
 anteriores:
   - "2do cuatrimestre 2017: <a href='https://www.df.uba.ar/attachments/article/26/segundo.pdf'>Horarios</a>"

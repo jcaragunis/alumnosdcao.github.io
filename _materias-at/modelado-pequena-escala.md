@@ -17,7 +17,7 @@ correlativas:
     - materia: "Microclimatología"
       tipo: TP
       url: /materias-at/microclimatologia
-abre: "-"
+
 viejoplan: "No existía"
 anteriores: "-"
 ---

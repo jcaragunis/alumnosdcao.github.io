@@ -20,7 +20,7 @@ correlativas:
   - materia: "Ondas en la Atmósfera 1"
     tipo: F
     url: /materias-at/ondas1
-abre: "-"
+
 viejoplan: "Equivalencia con Climatología Dinámica"
 anteriores: "-"
 ---

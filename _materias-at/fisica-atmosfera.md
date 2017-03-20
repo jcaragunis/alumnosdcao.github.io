@@ -17,7 +17,7 @@ correlativas:
   - materia: "Matemática 1"
     tipo: F
     url: /materias-at/mate1
-abre: "-"
+
 viejoplan: "Equivale a Física de la Alta Atmósfera"
 anteriores: "-"
 

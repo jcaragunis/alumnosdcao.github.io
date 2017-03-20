@@ -11,7 +11,7 @@ correlativas:
   - materia: "Climatología"
     tipo: TP
     url: /materias-at/clima
-abre: "-"
+
 viejoplan: "Sin cambios"
 anteriores:
   - "2do cuatrimestre 2015: LU y MI de 8 a 13"

@@ -14,7 +14,7 @@ correlativas:
   - materia: "Climatología"
     tipo: F
     url: /materias-at/clima
-abre: "-"
+
 viejoplan: "No cambia"
 anteriores: 
   -  "2do cuatrimestre 2012: MA y JU 13 a 17"

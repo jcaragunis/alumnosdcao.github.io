@@ -11,7 +11,7 @@ correlativas:
   - materia: "Climatología"
     tipo: F
     url: /materias-at/clima
-abre: "-"
+
 viejoplan: "Paleo y Neoclima del plan viejo"
 anteriores:
   - "1er cuatrimestre 2014: LU y MI de 13 a 18" 
