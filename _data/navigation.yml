@@ -10,6 +10,11 @@
   excerpt: "Carrera de Oceanografía"
   image: oceano.jpg
 
+- title: "Blog"
+  url: /blog
+  excerpt: "Principalmente actas de reuniones de CODEP"
+  image: atmosfera.jpg
+
 - title: "Colaborar"
   url: https://github.com/alumnosdcao/alumnosdcao.github.io
   excerpt: "¿Errores u omisiones? ¡Podés ayudar!"

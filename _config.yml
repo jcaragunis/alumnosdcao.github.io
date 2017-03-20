@@ -14,7 +14,7 @@ feed:
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:categories/:title/
+permalink: blog/:year/:month/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
@@ -44,6 +44,7 @@ include:
   - .htaccess
   - _materias-at
   - _pages
+  - actas
 exclude:
 
   - "*.less"
