@@ -1,12 +1,12 @@
 # Site navigation links
 
 - title: "Atmósfera"
-  url: /atmosfera/
+  url: /atmosfera
   excerpt: "Carrera de Ciencias de la Atmósfera"
   image: atmosfera.jpg
 
 - title: "Océano"
-  url: /oceano/
+  url: /oceano
   excerpt: "Carrera de Ciencias de los Océanos"
   image: oceano.jpg
 
