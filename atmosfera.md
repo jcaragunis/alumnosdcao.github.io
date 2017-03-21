@@ -32,6 +32,6 @@ Todos los alumnos a los que les falten cursar más de 12 materias automáticamen
 
 En la página de cada materia están nombradas las equivalencias del plan viejo. Por desgracia, algunas materias del plan viejo no tienen equivalencia con el plan nuevo.
 
-##### Fuente y legales
+#### Fuente y legales
 
 Para los que tengan ganas de leer lo burocrático, está la [resolución del Consejo Superior de la UBA](archivos/2017-03-15_7038.pdf) que aprueba el cambio del plan de estudios y anexa toda la información disponible.
