@@ -4,10 +4,10 @@ title: "Laboratorio de Procesamiento de Información Meteorológica"
 carrera: "at"
 tipo: Intermedia
 caracter: Cuatrimestral
-carga_horaria: 
+carga_horaria:
     semanal: 10
     total: 160
-correlativas: 
+correlativas:
   - materia: "Estadística para el Sistema Climático 1"
     tipo: TP
     url: /materias-at/estadistica1
@@ -33,7 +33,7 @@ anteriores: Sin datos
 ---
 
 ### Contenidos mínimos
-Introducción a los sistemas de computación. Optimización de tiempo de procesamiento de datos.  Principios básicos de programación y diagramación. Conceptos y fundamentos sobre paquetes para la manipulación de matrices, paquetes gráficos, georreferenciados, entre otros. Lenguajes vigentes de programación: Desarrollo e implementación de programas.  Programación para visualización y manipulación de distintos archivos con información meteorológica. 
+Introducción a los sistemas de computación. Optimización de tiempo de procesamiento de datos.  Principios básicos de programación y diagramación. Conceptos y fundamentos sobre paquetes para la manipulación de matrices, paquetes gráficos, georreferenciados, entre otros. Lenguajes vigentes de programación: Desarrollo e implementación de programas.  Programación para visualización y manipulación de distintos archivos con información meteorológica.
 
 ### Tips
-Es nueva en la licenciatura, pero si estuviste bagando por los sinuosos caminos del bachillerato y aprobaste el Seminario de Computación te la dan por aprobada, bingo.
+Es nueva en la licenciatura, pero si estuviste vagando por los sinuosos caminos del bachillerato y aprobaste el Seminario de Computación te la dan por aprobada, bingo.
