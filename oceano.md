@@ -4,5 +4,5 @@ permalink: /oceano
 title: "Oceanografía"
 ---
 
-Comming soon.
+Coming soon.
 {: .notice-warning}
