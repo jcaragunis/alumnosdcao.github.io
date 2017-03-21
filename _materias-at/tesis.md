@@ -29,4 +29,4 @@ En caso de que puedas elegir, fijate qué te gusta y te sirve más. La idea es q
 
 En el caso de la tesis, la idea es que cuando estés por el último año de la carrera o un poco antes vayas persiguiendo a algún profesor/a para que sea tu director/a. Algunos eligen por el tema de estudio, otros por la persona con la que quieren trabajar. 
 
-Cómo funciona la práctica profesional, por ahora es un misterio. 
+Cómo funciona la práctica profesional, por ahora es un misterio.
