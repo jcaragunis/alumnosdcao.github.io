@@ -10,7 +10,7 @@ carga_horaria:
 correlativas:
   - materia: "Oceanografía General"
     tipo: TP
-    url: /materias-at/oceanografía
+    url: /materias-at/oceanografia
 
 viejoplan: "Es 'Olas' en el plan viejo de Océano."
 anteriores:
