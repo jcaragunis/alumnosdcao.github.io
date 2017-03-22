@@ -3,9 +3,9 @@ layout: materia
 title: "Matemática 2"
 carrera: "at"
 tipo: Electiva
-caracter: Bimestral
+caracter: Cuatrimestral
 carga_horaria: 
-    semanal: 10
+    semanal: 5
     total: 80
 correlativas: CBC
 abre:
