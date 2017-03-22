@@ -18,13 +18,13 @@ abre:
   - materia: "Mesometeorología de Montaña"
     tipo: TP
     url: /materias-at/meso-montana
-viejoplan: "Es la mitad de Principios y Aplicaciones de Sensores Remotos Instalados en Distintos Satélites, pero no da equivalencia."
+viejoplan: "Es la primera mitad de Principios y Aplicaciones de Sensores Remotos Instalados en Distintos Satélites y dan la equivalencia."
 anteriores: "-"
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m19218.html
 ---
 
 ### Contenidos mínimos
-Aplicaciones del radar Doppler para la estimación de viento y zonas de convergencia. Variables polarimétricas. Refracción, reflexión, atenuación de radiación electromagnética por objetivos atmosféricos meteorológicos (nubes, lluvia, banda brillante, nieve. granizo) y ecos no meteorológicos (ecos de terreno, aves, insectos, otros). Propagación anómala. Calibración del radar. Estimación de la precipitación. Ecos en aire claro. Aplicación de variables polarimétricas en la detección de fenómenos severos.
+Satélites meteorológicos. Órbitas e instrumentos. Interpretación de imágenes. Detección e identificación de nubes de agua y/o hielo, de polvo, de sal y de cenizas volcánicas. Obtención de la temperatura de las superficies observadas (nubes, suelos, agua). Discriminación e identificación de tipos de cobertura de la superficie terrestre, diversos índices sintéticos. Obtención e interpretación de datos sobre los océanos. Obtención e interpretación de perfiles verticales de temperatura, vapor de agua y gases traza. Detección de material particulado en la atmosfera. Estimación de la precipitación.
 
 ### Tips
-Es una materia que nace con el nuevo plan al desdoblarse la vieja materia de sensoramiento remoto. En [Sensores 1](/sensores1) se ve todo lo que tiene que ver con satélites mientras que en esta se ve sobre radares. A pesar de ser la mitad de la materia vieja, según el plan no dan equivalencias.
+Acá aprendés que las imágenes satelitales no son fotos, sino datos. Antes de hacerla, está bueno tener un poco de idea de programación, ya que se usa mucho Python. Esta materia y [Sensores 2](/materias-at/sensores2) fueron separadas al nacer. 

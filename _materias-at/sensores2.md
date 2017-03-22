@@ -24,7 +24,7 @@ abre:
   - materia: "Mesometeorología de Montaña"
     tipo: TP
     url: /materias-at/meso-montana
-viejoplan: "No existe"
+viejoplan: "Es la segunda mitad de Principios y Aplicaciones de Sensores Remotos Instalados en Distintos Satélites, pero no da equivalencia."
 anteriores: "-"
 encuestas: http://encuestas_finales.exactas.uba.ar/mat/m19218.html
 ---
@@ -33,4 +33,4 @@ encuestas: http://encuestas_finales.exactas.uba.ar/mat/m19218.html
 Aplicaciones del radar Doppler para la estimación de viento y zonas de convergencia. Variables polarimétricas. Refracción, reflexión, atenuación de radiación electromagnética por objetivos atmosféricos meteorológicos (nubes, lluvia, banda brillante, nieve. granizo) y ecos no meteorológicos (ecos de terreno, aves, insectos, otros). Propagación anómala. Calibración del radar. Estimación de la precipitación. Ecos en aire claro. Aplicación de variables polarimétricas en la detección de fenómenos severos.
 
 ### Tips
-Es una materia que nace con el nuevo plan y que vendría a ser la continuación de la vieja materia "Principios y Aplicaciones de Sensores Remotos Instalados en Distintos Satélites". Si hiciste esa y te gustó, ¿por qué no volver por más?
+Es una materia que nace con el nuevo plan al desdoblarse la vieja materia de sensoramiento remoto. En [Sensores 1](/materias-at/sensores1) se ve todo lo que tiene que ver con satélites mientras que en esta se ve sobre radares. A pesar de ser la mitad de la materia vieja, según el plan no dan equivalencias. Si hiciste la anterior y te gustó, ¿por qué no volver por más?
