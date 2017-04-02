@@ -328,6 +328,7 @@ textarea {
 
 input[type="search"] {
 	@include appearance(none);
+	font-family: $alt-font;
 	display: inline-block;
 	border: 1 !important;
 	border-radius: 10 * $border-radius;
