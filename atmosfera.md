@@ -7,6 +7,8 @@ title: "Cs. de la Atmósfera"
 <a href="{{ site.url }}/mapa-at" class="btn">Mapa de Correlativas</a>
 <a href="{{ site.url }}/materias-at" class="btn">Listado de Materias</a>
 
+{% include searchform.html %}
+
 Toda la información es sobre el nuevo plan de estudios que entrará en vigencia a partir de 2018. Si encontrás errores y/u omisiones, podés [avisarnos](mailto:codepalumnos.dcao@gmail.com) o [corregirlas vos mismo](https://github.com/alumnosdcao/alumnosdcao.github.io).  
 {: .notice-info}
 

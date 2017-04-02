@@ -1,12 +1,7 @@
-<!---
-<form method="get" action="/search" data-search-form>
-	<input type="search" class = "input-search" name="q" id="q" placeholder="Buscar" data-search-input />
-</form>
--->
 
 <!-- Html Elements for Search -->
 <div id="search-container" style="text-align: center">
-<input type="search" class="input-search" id="search-input" placeholder="Buscar" />
+<input type="search" class="input-search" id="search-input" placeholder="Buscar materias" />
 <ul id="results-container"></ul>
 </div>
 <!-- Script pointing to jekyll-search.js -->
@@ -17,7 +12,7 @@
 	  searchInput: document.getElementById('search-input'),
 	  resultsContainer: document.getElementById('results-container'), 
 	  json: '/search-at.json',
-	  searchResultTemplate: "<li><a href="{url}">{title}</a></li>",
+	  searchResultTemplate: '<li><a href="{url}">{materia}</a></li>',
 	  noResultsText: "No hay resultados"
 	})	
 </script>
