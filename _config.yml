@@ -45,6 +45,7 @@ include:
   - _materias-at
   - _pages
   - actas
+  - scripts
 exclude:
 
   - "*.less"
