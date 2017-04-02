@@ -3,12 +3,11 @@ layout: article
 permalink: /atmosfera
 title: "Cs. de la Atmósfera"
 ---
-<div>
-<input type="search" class="input-search" id="search-input" placeholder="Buscar materias" /> <a href="{{ site.url }}/mapa-at" class="btn">Mapa de Correlativas</a>
-<a href="{{ site.url }}/materias-at" class="btn">Listado de Materias</a> 
-</div>
 
-{% include searchform.html %}
+{% include searchform.html %} <a href="{{ site.url }}/mapa-at" class="btn">Mapa de Correlativas</a>
+<a href="{{ site.url }}/materias-at" class="btn">Listado de Materias</a> 
+
+{% include searchscript.html %}
 
 Toda la información es sobre el nuevo plan de estudios que entrará en vigencia a partir de 2018. Si encontrás errores y/u omisiones, podés [avisarnos](mailto:codepalumnos.dcao@gmail.com) o [corregirlas vos mismo](https://github.com/alumnosdcao/alumnosdcao.github.io).  
 {: .notice-info}
