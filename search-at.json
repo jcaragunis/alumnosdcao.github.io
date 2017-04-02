@@ -5,7 +5,10 @@ layout: null
   {% for post in site.materias-at %}
     {
       "materia"    : "{{ post.title | escape }}",
-      "url"      : "{{ site.url }}{{ post.url }}"
+      "url"      : "{{ site.url }}{{ post.url }}",
+      "correlativas" : "{% for materia in post.correlativas %}{{ materia.materia }} {% endfor %}",
+      "abre": "{% for materia in post.abre %}{{ materia.materia }} {% endfor %}",
+      "viejoplan": "{{ post.viejoplan }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

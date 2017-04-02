@@ -27,7 +27,7 @@ abre:
   - materia: "Meteorología Sinóptica"
     tipo: F
     url: /materias-at/meteo-sinoptica
-viejoplan: "Te da equivalencia si tenés Meteorología  Teórica (licenciatura) o Introducción a la Dinámica de la Atmósfera (bachiller)."
+viejoplan: "Te da equivalencia si tenés Meteorología Teórica (licenciatura) o Introducción a la Dinámica de la Atmósfera (bachiller)."
 anteriores: Sin datos
 
 ---
