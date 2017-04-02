@@ -3,9 +3,10 @@ layout: article
 permalink: /atmosfera
 title: "Cs. de la Atmósfera"
 ---
-
-<a href="{{ site.url }}/mapa-at" class="btn">Mapa de Correlativas</a>
-<a href="{{ site.url }}/materias-at" class="btn">Listado de Materias</a>
+<div>
+<input type="search" class="input-search" id="search-input" placeholder="Buscar materias" /> <a href="{{ site.url }}/mapa-at" class="btn">Mapa de Correlativas</a>
+<a href="{{ site.url }}/materias-at" class="btn">Listado de Materias</a> 
+</div>
 
 {% include searchform.html %}
 
