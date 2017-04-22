@@ -26,7 +26,9 @@ comments: true
           Total: 
             {% if page.caracter == "Bimestral" %} 
                {{ page.carga_horaria.semanal | times: 8 }}
-            {% else %} 
+            {% elsif page.caracter == "Anual" %} 
+               {{ page.carga_horaria.semanal | times: 32 }}
+            {% else %}
                {{ page.carga_horaria.semanal | times: 16 }}
             {% endif %} 
       </td>
