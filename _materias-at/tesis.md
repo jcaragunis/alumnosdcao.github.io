@@ -3,10 +3,10 @@ layout: materia
 title: "Tesis de Licenciatura"
 carrera: "at"
 tipo: Electiva
-caracter: Cuatrimestral
+caracter: Anual
 carga_horaria: 
     semanal: 10
-    total: 160
+    total: 320
 correlativas:
   - materia: "Ondas en la Atmósfera 2"
     tipo: TP
