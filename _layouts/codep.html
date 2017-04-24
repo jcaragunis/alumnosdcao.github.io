@@ -3,7 +3,5 @@ layout: article
 ---
 
 <a href="{{ site.url }}/actas/{{ page.fecha_codep | date: "%Y-%m-%d"}}-CODEP.doc"" class="btn">Acta de CODEP</a>
-{% for archivo in page.archivos %}
-	<a href="{{ site.url }}/archivos/{{ archivo.archivo }}" class="btn">{{ archivo.titulo }}</a>  
-{% endfor %}
+{% include archivos-adjuntos.html %}
 {{ content }}
