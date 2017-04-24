@@ -3,7 +3,7 @@ layout: article
 title: "Resumen de reunión del nuevo plan de estudios (Atmósfera)"
 date: 2017-04-24
 ---
-El viernes pasado se realizó la reunión para charlar sobre el nuevo plan de estudios. Este es un resúmen de lo hablado de la parte de Atmósfera.
+El viernes pasado se realizó la reunión para charlar sobre el nuevo plan de estudios. Este es un resumen de lo hablado de la parte de Atmósfera.
 
 Se habló de las motivaciones detrás del cambio de plan de estudio. 
 
@@ -78,7 +78,7 @@ Si hiciste materias del plan viejo que no están en el nuevo o no tienen equival
 
 #### ¿Qué pasa con las materias que se dictan cada 3 años?
 
-La organización de las materias va a ser difícil. Es muy importante que completen las encuentas para saber que es necesario abrir y luego se verá según los recursos que se tengan.
+La organización de las materias va a ser difícil. Es muy importante que completen las encuestas para saber que es necesario abrir y luego se verá según los recursos que se tengan.
 
 #### ¿Correlatividades entre ciclos?
 
