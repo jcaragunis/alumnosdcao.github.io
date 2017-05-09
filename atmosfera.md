@@ -34,6 +34,10 @@ Todos los alumnos a los que les falten cursar más de 12 materias automáticamen
 
 En la página de cada materia están nombradas las equivalencias del plan viejo. Por desgracia, algunas materias del plan viejo no tienen equivalencia con el plan nuevo.
 
+#### ¿Qué nota me queda si tramito la equivalencia?
+
+Si la equivalencia es de 1 materia a 1 materia, te queda la nota con la que aprobaste la materia anterior. Si es una equivalencia donde 1 materia vale por más o 2 materias valen por 1, la nota no se pasa. 
+
 #### Fuente y legales
 
 Para los que tengan ganas de leer lo burocrático, está la [resolución del Consejo Superior de la UBA](archivos/2017-03-15_7038.pdf) que aprueba el cambio del plan de estudios y anexa toda la información disponible.
