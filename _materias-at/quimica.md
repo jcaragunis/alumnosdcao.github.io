@@ -27,3 +27,5 @@ Sistemas materiales. Estructura atómico molecular. Clasificación Periódica. G
 ### Tips
 
 Ésta materia es terreno no explorado. En el plan viejo era optativa y casi nadie la hacía. Entendemos que es una versión mas corta de la Química Inorgánica que hacen los químicos con prácticas delaboratorio mas trancas (de esos donde te ponés guardapolvo blanco).
+
+En la reunión de CODEP de mayo [se habló](/blog/2017/05/codep/) de la posibilidad de hacer la versión que hacen los paleontólogos. 
